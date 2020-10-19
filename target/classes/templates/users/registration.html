@@ -1,0 +1,19 @@
+<html xmlns:th="http://thymeleaf.org">
+<h2>Please Register:</h2>
+
+<form method="post" th:object="${UserRegistration}">
+
+    <label for="username">Username:</label><br>
+    <input type="text" id="username"/>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password"/>
+
+    <label for="password">Confirm Password:</label>
+    <input type="password" id="confirmPassword"/>
+
+    <input type="submit" value="Register"/>
+
+</form>
+
+</html>

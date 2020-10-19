@@ -15,18 +15,15 @@ public class PostService {
         Post post = new Post();
         post.setTitle("Post 1");
         post.setBody("Post 1 Body");
-        post.setDate(new Date());
 
         Post post2 = new Post();
         post2.setTitle("Post 2");
         post2.setBody("Post 2 Body");
-        post2.setDate(new Date());
 
 
         Post post3 = new Post();
         post3.setTitle("Post 3");
         post3.setBody("Post 3 Body");
-        post3.setDate(new Date());
 
         list.add(post);
         list.add(post2);
@@ -38,7 +35,6 @@ public class PostService {
         Post post = new Post();
         post.setTitle("Post 1");
         post.setBody("Post 1 Body");
-        post.setDate(new Date());
 
 
         return post;

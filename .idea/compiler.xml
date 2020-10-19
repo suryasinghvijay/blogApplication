@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="technicalblog" />
+        <module name="TechnicalBlogApplication-7f054445a973db7245f40d732655f618465cb116" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TechnicalBlogApplication-7f054445a973db7245f40d732655f618465cb116" options="-parameters" />
+      <module name="technicalblog" options="-parameters" />
+    </option>
+  </component>
+</project>

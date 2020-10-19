@@ -10,6 +10,11 @@
 
     <body>
         <h1>All Technical Posts</h1>
+
+        <form method="get" th:action="@{/createPost}">
+        <input type="submit" value="Create post"/>
+        </form>
+
         <main id="posts">
             <post th:each="p : ${posts}">
                 <h2 th:text="${p.title}"></h2>

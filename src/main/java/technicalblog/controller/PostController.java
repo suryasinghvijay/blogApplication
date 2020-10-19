@@ -17,4 +17,8 @@ public class PostController {
         model.addAttribute("posts", postService.getPost());
         return "post";
     }
+    @RequestMapping("/createPost")
+    public String createNewPost(){
+        return "newPost";
+    }
 }
